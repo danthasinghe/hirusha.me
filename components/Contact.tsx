@@ -7,12 +7,12 @@ const links = [
   {
     label: "github",
     value: "github.com/hirushapramuditha",
-    href: "#",
+    href: "https://github.com/hirushapramuditha",
   },
   {
     label: "linkedin",
     value: "linkedin.com/in/hirusha-danthasinghe",
-    href: "#",
+    href: "https://linkedin.com/in/hirusha-danthasinghe",
   },
 ];
 
