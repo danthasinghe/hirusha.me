@@ -5,10 +5,10 @@ import { useEffect, useState } from "react";
 const sections = [
   { id: "home", number: "01" },
   { id: "about", number: "02" },
-  { id: "projects", number: "03" },
-  { id: "stack", number: "04" },
-  { id: "now", number: "05" },
-  { id: "contact", number: "06" },
+  //   { id: "projects", number: "03" },
+  { id: "stack", number: "03" },
+  { id: "now", number: "04" },
+  { id: "contact", number: "05" },
 ];
 
 export default function SectionIndex() {

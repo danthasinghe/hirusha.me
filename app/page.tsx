@@ -42,19 +42,19 @@ export default function Home() {
           </div>
         </Section>
 
-        <Section number="03" name="projects">
+        {/* <Section number="03" name="projects">
           <Projects />
-        </Section>
+        </Section> */}
 
-        <Section number="04" name="stack">
+        <Section number="03" name="stack">
           <Stack />
         </Section>
 
-        <Section number="05" name="now">
+        <Section number="04" name="now">
           <Now />
         </Section>
 
-        <Section number="06" name="contact">
+        <Section number="05" name="contact">
           <Contact />
         </Section>
         <footer className="flex flex-col gap-4 border-t border-neutral-800 py-8 font-mono text-[10px] text-neutral-700 sm:flex-row sm:items-center sm:justify-between">

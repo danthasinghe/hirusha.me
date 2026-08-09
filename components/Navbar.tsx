@@ -2,7 +2,7 @@ import MobileMenu from "./MobileMenu";
 
 const links = [
   { label: "home", href: "#home" },
-  { label: "projects", href: "#projects" },
+  // { label: "projects", href: "#projects" },
   { label: "about", href: "#about" },
   { label: "stack", href: "#stack" },
   { label: "now", href: "#now" },
