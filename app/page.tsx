@@ -8,7 +8,7 @@ import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <main className="mx-auto min-h-screen max-w-6xl px-6">
+    <main className="mx-auto min-h-screen max-w-5xl px-6">
       <Navbar />
 
       <Hero />

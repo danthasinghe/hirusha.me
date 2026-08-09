@@ -8,7 +8,7 @@ export default function Section({ number, name, children }: SectionProps) {
   return (
     <section
       id={name.toLowerCase()}
-      className="grid grid-cols-1 gap-8 border-t border-neutral-800/80 py-24 md:grid-cols-[180px_1fr] md:gap-12"
+      className="grid grid-cols-1 gap-6 border-t border-neutral-800/80 py-24 md:grid-cols-[180px_1fr] md:gap-12"
     >
       <div className="font-mono text-xs text-neutral-600">
         <div>

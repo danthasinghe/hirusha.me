@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="grid min-h-[calc(100vh-88px)] grid-cols-1 items-center gap-16 py-20 md:grid-cols-[180px_1fr] md:gap-12"
+      className="grid min-h-[calc(100svh-72px)] grid-cols-1 items-center gap-12 py-16 md:grid-cols-[180px_1fr] md:gap-12 md:py-20"
     >
       {/* Section marker */}
       <div className="self-start pt-2 font-mono text-xs text-neutral-500">
@@ -11,11 +11,11 @@ export default function Hero() {
       </div>
 
       {/* Hero content */}
-      <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_280px] lg:items-end">
+      <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_280px] lg:items-end">
         <div>
           <p className="mb-5 font-mono text-xl text-neutral-500">hey, I'm</p>
 
-          <h1 className="text-5xl font-medium tracking-[-0.04em] text-white sm:text-6xl md:text-7xl">
+          <h1 className="text-5xl font-medium tracking-[-0.04em] text-white sm:text-7xl md:text-8xl">
             Hirusha.
           </h1>
 
@@ -60,7 +60,7 @@ export default function Hero() {
           </div>
 
           {/* Small visual */}
-          <div className="mt-10 text-neutral-600">
+          <div className="mt-10 hidden text-neutral-600 lg:block">
             <pre className="overflow-hidden text-[10px] leading-3">
               {`              .       .
          .    / \\     / \\
