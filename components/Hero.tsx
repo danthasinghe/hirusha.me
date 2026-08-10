@@ -62,12 +62,28 @@ export default function Hero() {
           {/* Small visual */}
           <div className="mt-10 hidden text-neutral-600 lg:block">
             <pre className="overflow-hidden text-[10px] leading-3">
-              {`              .       .
-         .    / \\     / \\
-             /   \\___/   \\
-        ____/             \\____
-       .........................
-`}
+              {/* {`/
+├── home/
+│   └── hirusha/
+│       ├── code/
+│       ├── projects/
+│       └── ideas/
+├── etc/
+└── README.md`} */}
+              {/* {`       .--.
+      |o_o |
+      |:_/ |
+     //   \\ \\
+    (|     | )
+   /'\\_   _/\\
+   \\___)=(___/`} */}
+              {`             /\\
+            /  \\          /\\
+       /\\  /    \\        /  \\
+      /  \\/      \\______/    \\
+ ____/                    ____\\____
+     \\      /\\      /\\
+      \\____/  \\____/  \\____`}
             </pre>
           </div>
         </div>
