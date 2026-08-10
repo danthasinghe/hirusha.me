@@ -11,11 +11,11 @@ export default function Hero() {
       </div>
 
       {/* Hero content */}
-      <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_280px] lg:items-end">
+      <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_280px] lg:items-start">
         <div>
           <p className="mb-5 font-mono text-xl text-neutral-500">hey, I'm</p>
 
-          <h1 className="text-5xl font-medium tracking-[-0.04em] text-white sm:text-7xl md:text-8xl">
+          <h1 className="text-5xl font-medium tracking-[-0.04em] text-white sm:text-6xl md:text-7xl">
             Hirusha.
           </h1>
 
@@ -37,7 +37,7 @@ export default function Hero() {
         </div>
 
         {/* System info */}
-        <div className="font-mono text-xs leading-6 text-neutral-600">
+        <div className="font-mono text-xs leading-6 text-neutral-600 lg:justify-self-end">
           <div>
             <span className="text-neutral-700">&gt;</span> location:{" "}
             <span className="text-neutral-400">Sri Lanka</span>
