@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const sections = [
   { id: "home", number: "01" },
   { id: "about", number: "02" },
-  //   { id: "projects", number: "03" },
+  // { id: "projects", number: "03" },
   { id: "stack", number: "03" },
   { id: "now", number: "04" },
   { id: "contact", number: "05" },
@@ -15,31 +15,38 @@ export default function SectionIndex() {
   const [active, setActive] = useState("home");
 
   useEffect(() => {
-    const elements = sections
-      .map(({ id }) => document.getElementById(id))
-      .filter(Boolean);
+    const updateActiveSection = () => {
+      const marker = window.innerHeight * 0.35;
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+      let currentSection = sections[0].id;
 
-        if (visible[0]) {
-          setActive(visible[0].target.id);
+      for (const section of sections) {
+        const element = document.getElementById(section.id);
+
+        if (!element) continue;
+
+        const rect = element.getBoundingClientRect();
+
+        if (rect.top <= marker) {
+          currentSection = section.id;
         }
-      },
-      {
-        rootMargin: "-30% 0px -50% 0px",
-        threshold: [0, 0.25, 0.5, 0.75, 1],
-      },
-    );
+      }
 
-    elements.forEach((element) => {
-      if (element) observer.observe(element);
+      setActive(currentSection);
+    };
+
+    updateActiveSection();
+
+    window.addEventListener("scroll", updateActiveSection, {
+      passive: true,
     });
 
-    return () => observer.disconnect();
+    window.addEventListener("resize", updateActiveSection);
+
+    return () => {
+      window.removeEventListener("scroll", updateActiveSection);
+      window.removeEventListener("resize", updateActiveSection);
+    };
   }, []);
 
   return (
