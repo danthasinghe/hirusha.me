@@ -1,7 +1,7 @@
 import AchievementList from "@/components/AchievementList";
 
 export const metadata = {
-  title: "Achievements — Hirusha Pramuditha",
+  title: "Achievements — Hirusha Danthasinghe",
   description: "Competitions, certifications, awards, and other achievements.",
 };
 
@@ -49,7 +49,7 @@ export default function AchievementsPage() {
 
       <footer className="border-t border-neutral-800 py-8 font-mono text-[10px] text-neutral-700">
         <div className="flex flex-col gap-2 sm:flex-row sm:justify-between">
-          <span>© 2026 Hirusha Pramuditha</span>
+          <span>© 2026 Hirusha Danthasinghe</span>
           <a href="/" className="transition-colors hover:text-neutral-400">
             back to home ↑
           </a>

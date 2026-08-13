@@ -59,7 +59,7 @@ export default function Home() {
         </Section>
         <footer className="flex flex-col gap-4 border-t border-neutral-800 py-8 font-mono text-[10px] text-neutral-700 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex gap-4">
-            <span>© 2026 Hirusha Pramuditha</span>
+            <span>© 2026 Hirusha Danthasinghe</span>
             <span className="hidden sm:inline">/</span>
             <span>Sri Lanka</span>
           </div>

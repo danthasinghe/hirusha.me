@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hirusha Pramuditha",
+  title: "Hirusha Danthasinghe",
   description: "Developer, tinkerer, and avid Linux enthusiast.",
 };
 
