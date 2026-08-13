@@ -6,7 +6,7 @@ const links = [
   },
   {
     label: "github",
-    value: "github.com/hirushapramuditha",
+    value: "github.com/danthasinghe",
     href: "https://github.com/danthasinghe",
   },
   {
