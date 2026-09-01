@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Hirusha Danthasinghe",
   description: "Developer, tinkerer, and avid Linux enthusiast.",
+  metadataBase: new URL("https://itshirusha.me"),
 };
 
 export default function RootLayout({
