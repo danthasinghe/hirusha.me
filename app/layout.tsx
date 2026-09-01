@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import { Analytics } from "@vercel/analytics/next";
+import { person } from "@/lib/person";
 
 const geist = Geist({
   variable: "--font-geist",
@@ -25,8 +26,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: person.name,
+    url: person.url,
+    sameAs: person.sameAs,
+  };
+
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+        />
+      </head>
       <body className={`${geist.variable} ${geistMono.variable}`}>
         {children}
         <Analytics />
