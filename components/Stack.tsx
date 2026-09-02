@@ -1,19 +1,23 @@
 const stack = [
   {
     category: "languages",
-    items: ["TypeScript", "JavaScript", "Python", "C++"],
+    items: ["TypeScript", "JavaScript", "Python", "Go", "C++"],
   },
   {
-    category: "web",
-    items: ["Next.js", "React", "Node.js", "Express"],
+    category: "infrastructure",
+    items: ["Linux", "Docker", "Nginx", "Cloud"],
   },
   {
     category: "data",
     items: ["PostgreSQL", "MongoDB", "Redis"],
   },
   {
-    category: "infrastructure",
-    items: ["Linux", "Docker", "Nginx", "Cloud"],
+    category: "web",
+    items: ["Next.js", "React", "Node.js", "Express"],
+  },
+  {
+    category: "mobile",
+    items: ["Flutter", "Dart"],
   },
   {
     category: "tools",

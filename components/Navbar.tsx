@@ -5,7 +5,6 @@ const links = [
   // { label: "projects", href: "#projects" },
   { label: "about", href: "#about" },
   { label: "stack", href: "#stack" },
-  { label: "now", href: "#now" },
   { label: "contact", href: "#contact" },
 ];
 
@@ -16,7 +15,7 @@ export default function Navbar() {
         href="#home"
         className="font-mono text-xs tracking-tight text-neutral-300 transition-colors hover:text-white"
       >
-        HP / HIRUSHA.ME
+        ITS / HIRUSHA.ME
       </a>
 
       <nav className="hidden items-center gap-6 font-mono text-xs sm:flex">

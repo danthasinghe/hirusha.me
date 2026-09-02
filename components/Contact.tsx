@@ -21,12 +21,11 @@ export default function Contact() {
     <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_220px]">
       <div>
         <h2 className="text-3xl tracking-[-0.03em] text-white sm:text-4xl">
-          let's build something cool.
+          let's talk.
         </h2>
 
         <p className="mt-6 max-w-lg text-sm leading-7 text-neutral-500">
-          I'm always interested in interesting projects, ideas, collaborations,
-          or just talking about technology.
+          Open to backend and DevOps roles, plus interesting collaborations.
         </p>
 
         <div className="mt-10 space-y-4">

@@ -20,8 +20,8 @@ export default function Hero() {
           </h1>
 
           <p className="mt-8 max-w-xl text-base leading-7 text-neutral-400">
-            I build software, tinker with systems, and enjoy turning ideas into
-            things that actually work.
+            I build backend systems and infrastructure, and enjoy understanding
+            how things work under the hood.
           </p>
 
           <a
@@ -54,13 +54,8 @@ export default function Hero() {
             <span className="text-[var(--accent)]">●</span>
           </div>
 
-          <div>
-            <span className="text-neutral-700">&gt;</span> coffee:{" "}
-            <span className="text-neutral-400">required</span>
-          </div>
-
           {/* Small visual */}
-          <div className="mt-10 hidden text-neutral-600 lg:block">
+          <div className="mt-16 hidden text-neutral-600 lg:block">
             <pre className="overflow-hidden text-[10px] leading-3">
               {/* {`/
 ├── home/

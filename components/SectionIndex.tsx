@@ -7,8 +7,7 @@ const sections = [
   { id: "about", number: "02" },
   // { id: "projects", number: "03" },
   { id: "stack", number: "03" },
-  { id: "now", number: "04" },
-  { id: "contact", number: "05" },
+  { id: "contact", number: "04" },
 ];
 
 export default function SectionIndex() {

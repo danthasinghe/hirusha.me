@@ -13,7 +13,7 @@ export default function AchievementsPage() {
           href="/"
           className="font-mono text-xs tracking-tight text-neutral-300 transition-colors hover:text-white"
         >
-          HP / HIRUSHA.ME
+          ITS / HIRUSHA.ME
         </a>
 
         <a

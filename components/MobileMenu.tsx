@@ -7,7 +7,6 @@ const links = [
   { label: "about", href: "#about" },
   //   { label: "projects", href: "#projects" },
   { label: "stack", href: "#stack" },
-  { label: "now", href: "#now" },
   { label: "contact", href: "#contact" },
   { label: "achievements ↗", href: "/achievements" },
 ];
@@ -37,7 +36,7 @@ export default function MobileMenu() {
         <div className="fixed inset-0 z-50 bg-[#050505] px-6 py-6 sm:hidden">
           <div className="flex items-center justify-between">
             <span className="font-mono text-xs text-neutral-300">
-              HP / HIRUSHA.ME
+              ITS / HIRUSHA.ME
             </span>
 
             <button
