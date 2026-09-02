@@ -19,14 +19,14 @@ export default function Home() {
         <Section number="02" name="about">
           <div className="max-w-2xl">
             <p className="text-lg leading-8 text-neutral-300">
-              I'm a backend and infrastructure-focused developer based in Sri
+              I'm a backend and infrastructure focused developer based in Sri
               Lanka. Most of my work sits close to the server. APIs, databases,
               and the systems that keep things running.
             </p>
 
             <p className="mt-6 leading-7 text-neutral-500">
               I work primarily with TypeScript, Go, and Python, and spend a fair
-              amount of time in Linux, Docker, and networking — partly for work,
+              amount of time in Linux, Docker, and networking, partly for work,
               partly because I like knowing how the stack actually behaves
               underneath the framework. I've also built and shipped full
               applications end-to-end when the project called for it, but
